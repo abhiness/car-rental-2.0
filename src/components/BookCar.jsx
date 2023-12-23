@@ -5,6 +5,22 @@ import CarToyota from "../images/cars-big/toyotacamry.jpg";
 import CarBmw from "../images/cars-big/bmw320.jpg";
 import CarMercedes from "../images/cars-big/benz.jpg";
 import CarPassat from "../images/cars-big/passatcc.jpg";
+import CarUrus from "../images/cars-big/urus1.png";
+import CarBentayga from "../images/cars-big/bentayga1.jpg";
+import CarR1 from "../images/cars-big/RangeR1.png";
+import CarAston from "../images/cars-big/dbx.jpg";
+import CarCamaro from "../images/cars-big/camaro1.jpeg";
+import CarPurosangue from "../images/cars-big/purosangue1.jpeg";
+import CarXJ50 from "../images/cars-big/xj501.webp";
+import CarCullinan from "../images/cars-big/cullinan1.avif";
+import CarCayenne from "../images/cars-big/cayenne1.webp";
+import CarLexus from "../images/cars-big/rx350-1.jpg";
+import CarX6 from "../images/cars-big/x6-1.webp";
+import CarNavigator from "../images/cars-big/navogator1.webp";
+import CarMaybach from "../images/cars-big/gls-box.png";
+import CarGuilia from "../images/cars-big/guilia`.jpeg";
+import Carq7 from "../images/cars-big/q7-1.webp";
+";
 import { IconCar, IconInfoCircleFilled, IconX } from "@tabler/icons-react";
 import { IconMapPinFilled } from "@tabler/icons-react";
 import { IconCalendarEvent } from "@tabler/icons-react";
@@ -125,23 +141,23 @@ function BookCar() {
   // based on value name show car img
   let imgUrl;
   switch (carImg) {
-    case "Audi A1 S-Line":
-      imgUrl = CarAudi;
+    case "Lamborghini Urus":
+      imgUrl = CarUrus;
       break;
-    case "VW Golf 6":
-      imgUrl = CarGolf;
+    case "Bentley Bentayga":
+      imgUrl = CarBentayga;
       break;
-    case "Toyota Camry":
-      imgUrl = CarToyota;
+    case "Range Rover SVR":
+      imgUrl = CarR1;
       break;
-    case "BMW 320 ModernLine":
-      imgUrl = CarBmw;
+    case "Chevrolet Camaro":
+      imgUrl = CarCamaro;
       break;
-    case "Mercedes-Benz GLK":
-      imgUrl = CarMercedes;
+    case "RR Cullinan":
+      imgUrl = CarCullinan;
       break;
-    case "VW Passat CC":
-      imgUrl = CarPassat;
+    case "Maybach GLS":
+      imgUrl = CarMaybach;
       break;
     default:
       imgUrl = "";
@@ -184,14 +200,14 @@ function BookCar() {
                   </label>
                   <select value={carType} onChange={handleCar}>
                     <option>Select your car type</option>
-                    <option value="Audi A1 S-Line">Audi A1 S-Line</option>
-                    <option value="VW Golf 6">VW Golf 6</option>
-                    <option value="Toyota Camry">Toyota Camry</option>
-                    <option value="BMW 320 ModernLine">
-                      BMW 320 ModernLine
+                    <option value="Lamborghini Urus">Lamborghini Urus</option>
+                    <option value="Bentley Bentayga">Bentley Bentayga</option>
+                    <option value="Chevrolet Camaro">Chevrolet Camaro</option>
+                    <option value="RR Cullinan">
+                      Rolls-Royce Cullinan
                     </option>
-                    <option value="Mercedes-Benz GLK">Mercedes-Benz GLK</option>
-                    <option value="VW Passat CC">VW Passat CC</option>
+                    <option value="Range Rover SVR">Range Rover SVR</option>
+                    <option value="Maybach GLS">Maybach GLS</option>
                   </select>
                 </div>
 
