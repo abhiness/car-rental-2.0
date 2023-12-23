@@ -20,7 +20,7 @@ import CarNavigator from "../images/cars-big/navogator1.webp";
 import CarMaybach from "../images/cars-big/gls-box.png";
 import CarGuilia from "../images/cars-big/guilia`.jpeg";
 import Carq7 from "../images/cars-big/q7-1.webp";
-";
+
 import { IconCar, IconInfoCircleFilled, IconX } from "@tabler/icons-react";
 import { IconMapPinFilled } from "@tabler/icons-react";
 import { IconCalendarEvent } from "@tabler/icons-react";
@@ -203,9 +203,7 @@ function BookCar() {
                     <option value="Lamborghini Urus">Lamborghini Urus</option>
                     <option value="Bentley Bentayga">Bentley Bentayga</option>
                     <option value="Chevrolet Camaro">Chevrolet Camaro</option>
-                    <option value="RR Cullinan">
-                      Rolls-Royce Cullinan
-                    </option>
+                    <option value="RR Cullinan">Rolls-Royce Cullinan</option>
                     <option value="Range Rover SVR">Range Rover SVR</option>
                     <option value="Maybach GLS">Maybach GLS</option>
                   </select>
